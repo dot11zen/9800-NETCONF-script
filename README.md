@@ -43,4 +43,4 @@ Go to the main() procedure and comment/uncomment the different tasks
     # Close the NETCONF manager session
     m.close_session()
 
-Information can be found at https://dot11zen.blogspot.com
+More information can be found at https://dot11zen.blogspot.com

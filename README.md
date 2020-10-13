@@ -43,4 +43,6 @@ Go to the main() procedure and comment/uncomment the different tasks
     # Close the NETCONF manager session
     m.close_session()
 
+The tool is supported to run on Python 3.8 or newer. 
+
 More information can be found at https://dot11zen.blogspot.com

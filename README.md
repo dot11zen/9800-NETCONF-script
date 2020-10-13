@@ -1,5 +1,5 @@
 # 9800-NETCONF-script
-9800 NETCONF script to retrieve and edit AP tags configuration.
+Python script to retrieve and edit Access Point tags configuration on Cisco Catalyst 9800 wireless controller.
 
 This script allows to connect to a Cisco Catalyst 9800 and perform the following operations:
 * Get NETCONF capabilities of the Cisco 9800 wireless controller

@@ -1,12 +1,12 @@
 # 9800-NETCONF-script
-9800 NETCONF script to retrieve and edit AP tags configuration:
-    * Get NETCONF capabilities of the Cisco 9800 wireless controller
-    * Import YANG schemas
-    * Export the static AP tags configuration for Access Points on Cisco 9800
-    * Edit the AP tags configuration
+9800 NETCONF script to retrieve and edit AP tags configuration.
 
-Information can be found at https://dot11zen.blogspot.com
-
+This script allows to connect to a Cisco Catalyst 9800 and perform the following operations:
+* Get NETCONF capabilities of the Cisco 9800 wireless controller
+* Import YANG schemas
+* Export the static AP tags configuration for Access Points on Cisco 9800
+* Edit the AP tags configuration
+    
 Go to the main() procedure and comment/uncomment the different tasks
 
     # Connect the NETCONF manager to the 9800 wireless controller
@@ -42,3 +42,5 @@ Go to the main() procedure and comment/uncomment the different tasks
 
     # Close the NETCONF manager session
     m.close_session()
+
+Information can be found at https://dot11zen.blogspot.com
